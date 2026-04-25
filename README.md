@@ -1,11 +1,11 @@
-# SMART SPEND FIN 💰
+# SMART SPEND FIN 
 ### AI-Powered Smart Financial Wellness Platform
 
 Built for the hackathon — a full-stack platform that uses 6 proprietary AI/ML engines to give users personalized, data-driven financial insights.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -17,7 +17,7 @@ Built for the hackathon — a full-stack platform that uses 6 proprietary AI/ML 
 
 ---
 
-## 🤖 6 AI Engines
+##  6 AI Engines
 
 | Engine | Method | What it does |
 |--------|--------|-------------|
@@ -30,7 +30,7 @@ Built for the hackathon — a full-stack platform that uses 6 proprietary AI/ML 
 
 ---
 
-## ⚙️ Running Locally
+##  Running Locally
 
 ### Prerequisites
 - Python 3.13+
@@ -65,7 +65,7 @@ App: http://localhost:3000
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 POST /auth/register          → create account
 POST /auth/login             → get JWT token
 POST /ai/salary-allocation   → run salary engine
@@ -77,7 +77,7 @@ POST /ai/debt-optimization   → run debt planner
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 - **Backend** → Railway (set root directory to `backend`)
 - **Frontend** → Vercel (set root directory to `frontend`)
@@ -85,7 +85,7 @@ POST /ai/debt-optimization   → run debt planner
 
 ---
 
-## ⚠️ Known Setup Notes
+##  Known Setup Notes
 
 - `bcrypt` must be pinned to `4.0.1` for Python 3.13 compatibility
 - JWT tokens expire after 40 minutes — log out and back in if you see 401 errors
